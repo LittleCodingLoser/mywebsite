@@ -10,4 +10,4 @@ def hello2():
     return render_template("About_me.html")
 if __name__=="__main__":
     app.debug=True
-    app.run(host='192.168.187.28', port=5000)
+    app.run()
