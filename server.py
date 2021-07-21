@@ -8,6 +8,9 @@ def hello():
 @app.route("/About_me")
 def hello2():
     return render_template("About_me.html")
+@app.route("/My_GitHub")
+def hello3():
+    return render_template("MyGitHub.html")
 if __name__=="__main__":
     app.debug=True
     app.run()
