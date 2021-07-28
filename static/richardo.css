@@ -1,0 +1,78 @@
+h1
+{
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size: 5em;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+#topic
+{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/884/772/large_2x/minimal-office-desk-table-top-view-with-office-supply-and-coffee-cup-on-a-white-table-with-copy-space-white-color-workplace-composition-flat-lay-free-photo.jpg');
+    background-repeat: no-repeat;
+    filter: brightness(95%);
+    background-attachment:absolute;
+    background-size:cover;
+    height: 70%;
+}
+#icon0:hover
+{
+    color: rgb(59, 163, 189);
+}
+#icon0
+{
+    color: rgb(121, 217, 255);
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size: 3em;
+    font-weight: bold;
+    position: absolute;
+    left: 5%;
+}
+#icon1:hover
+{
+    color: rgb(59, 163, 189);
+}
+#icon1
+{
+    color: rgb(121, 217, 255);
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size: 3em;
+    font-weight: bold;
+    position: absolute;
+    left: 30%;
+}
+#icon2:hover
+{
+    color: rgb(59, 163, 189);
+}
+#icon2
+{
+    color: rgb(121, 217, 255);
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size: 3em;
+    font-weight: bold;
+    position: absolute;
+    right: 30%;
+}
+#icon3:hover
+{
+    color: rgb(59, 163, 189);
+}
+#icon3
+{
+    color: rgb(121, 217, 255);
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size: 3em;
+    font-weight: bold;
+    position: absolute;
+    right: 5%;
+}
+p{
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size: 2em;
+    position: absolute;
+    left: 10%;
+    top: 78%;
+}

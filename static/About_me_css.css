@@ -1,0 +1,111 @@
+h1
+{
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size: 5em;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    top: 18%;
+    left: 5%;
+}
+img
+{
+    border-radius: 5%;
+}
+#MeText
+{
+    display:inline-block;
+    width: 700px;
+    box-shadow:4px 4px 12px black;
+    background: linear-gradient(35.32deg,white, #c7c5c5);;
+}
+#topic1
+{
+    font-family: Microsoft JhengHei;
+    font-size: 180%;
+    line-height: 200%;
+    font-weight: bold;
+    color: black;
+}
+#topic2
+{
+    font-family:Microsoft JhengHei;
+    font-size: 180%;
+    line-height: 240%;
+    font-weight: bold;
+    color: black;
+}
+#text1
+{
+    font-family: Microsoft YaHei;
+    font-size: 130%;
+    line-height: 150%;
+    color: black;
+}
+#text2
+{
+    font-family: Microsoft YaHei;
+    font-size: 130%;
+    line-height: 150%;
+    color: black;
+}
+#topic
+{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/884/533/non_2x/minimal-office-desk-table-top-view-with-keyboard-computer-mouse-glasses-coffee-cup-rice-plant-sack-on-a-white-table-with-copy-space-white-color-workplace-composition-flat-lay-free-photo.jpg');
+    filter: brightness(98%);
+    background-repeat: no-repeat;
+    background-attachment:absolute;
+    background-size:cover;
+}
+#icon0:hover
+{
+    color: rgb(59, 163, 189);
+}
+#icon0
+{
+    color: rgb(121, 217, 255);
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size: 3em;
+    font-weight: bold;
+    position: absolute;
+    left: 5%;
+}
+#icon1:hover
+{
+    color: rgb(59, 163, 189);
+}
+#icon1
+{
+    color: rgb(121, 217, 255);
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size: 3em;
+    font-weight: bold;
+    position: absolute;
+    left: 30%;
+}
+#icon2:hover
+{
+    color: rgb(59, 163, 189);
+}
+#icon2
+{
+    color: rgb(121, 217, 255);
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size: 3em;
+    font-weight: bold;
+    position: absolute;
+    right: 30%;
+}
+#icon3:hover
+{
+    color: rgb(59, 163, 189);
+}
+#icon3
+{
+    color: rgb(121, 217, 255);
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size: 3em;
+    font-weight: bold;
+    position: absolute;
+    right: 5%;
+}
