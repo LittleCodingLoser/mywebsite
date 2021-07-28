@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My GitHub 啦啦啦</Title>
+    <link rel=stylesheet type="text/css" href="static\MyGitHub_css.css">
+    <style>
+        .image 
+        {
+        display: block;
+        width: 100%;
+        height: auto;
+        }
+        .overlay 
+        {
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        right: 0;
+        background-image: url('https://lh3.googleusercontent.com/zfpgmUD8qi3sxd2qt_X33OFF6gSFyEaH8eYRurb_ukuWyS40xjH_hgbIy_2N-b4dxSVNkkDKki2SCTaxMGEZUs5Ut1i-XbFj7H9g_SxjznWqDwIWhQ-qp_vRYrOSiumk-HUkN8tBIL3kICAcPcYszNnzXego5V2k3QTb8Cy7HRmlQJccaOYzHZrHWSFdWSSsNNsG-XGqLoWIMTh6sfsRr02nPhPpRdXv7i4aGh0P9jH5IZvW8GfB2FeqOzpVphvHvHz97TG3FDFTlrTjN3cXuoIY8TyTVJOZNjdwuJNRamn62d1rL7BoEDCzPQr6KVxQj4essRm6uexjIz2PyJG21ZdUuq4gOytr5KeVn3uCsOabSd1gW8GaPw9GbBev1uiRXLn9Mn5ltx5Xee3_ggPJEqGVPKupY_iIrzUHfRM1DRlbhUqP0hPTJW4AB76tsi9TlJc7eaei1jpwPo0G07WmLoRXTq9Khqm2gZMzF1H9J2ogFdCD11t9pYFFUEzBlc4gzR25Y4rRZNermGu4jCvnie6BXPtiXpCpWyOPKJr0UV9tKYEDPiPy7sLNS0ZjELBc05U8WeEC--pmd4l_gznh7JY4EguL9pvTdrPxLBXOyQS46PhJzAeKzHZbS2LHU73PRXskpTPlDjWALxQMgKYUbUsw49K190bkzHkfdWBGQCAORJBXE_ReOGz-YPKX4rFHsOiAY1w9kZ3uZx90lnuC_AM=s450-no');
+        background-size: cover;
+        filter: brightness(105%);
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+        }
+        .container:hover .overlay
+        {
+        bottom: 0;
+        height: 100%;
+        }
+        .text 
+        {
+        white-space: nowrap; 
+        color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 2em;
+        position: absolute;
+        overflow: hidden;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="topic">
+        <h1>My GitHub</h1>
+    </div>
+    <div id="content">
+        <a href= "{{ url_for('hello') }}" style="text-decoration:none;" id="icon0">Home</a>
+        <a href= "{{ url_for('hello2') }}" style="text-decoration:none;" id="icon1">About Me</a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="text-decoration:none;" id="icon2">Little Surprise</a>
+        <a href="{{ url_for('hello3') }}" id="icon3" style="text-decoration:none;" >My GitHub</a>
+        <p>There are some worth noticing codes in my GitHub (sort of).<br>Go check it out~</p>
+        <a href="https://github.com/LittleCodingLoser" ><div class="container"  style="position:absolute;right:20%;top: 90%;height: 250px;width: 250px;" >
+            <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png' alt="Avatar" class="image">
+            <div class="overlay">
+              <div class="text">Little Coding Loser</div>
+            </div>
+          </div></a>
+        <img src="https://lh3.googleusercontent.com/2ShcuuBrn64ODFnbB-Jectt3-nfsu-nC1cQQhwJX8sQAXQgmCZK77iEkuC5Kc-LA2k8waYn4-SZVqcODtqgSemcA7e44tNu6GzYLfhfEFuQwLYssnojSOoakLb8h1wqAbJZi5S9lTQRBtyVKwHP37SOVsIsjeJHB3-1MriIHrRS6_9gYJGfCb5Bqv5AHmYrhkNBWK5S5SyH8OvBybJD5p48p8VeNZrQO5Gs9NqA0gAO9n99wIiUpM9ZBAANTr65PlCbDU3ho0MwzL4k6GYa-hVvuqd5ywkY8PhmXWI3q1oqF63tcbDIBvLCECgtiFkXw9a0N0D29ER9KXbFjeTDqSyLGNuVfgBTKhUYu0bORweAJCJMww51w4AtLjT6pak4eFm7HqCyXaoEs-LgjXXEunaObiGBU42bUHo3OSnPN5ImdjjBZtAR1_kedkNWJYEgXRd36vJ9CjkKVEOeA9QejsWANlXhuR0SGgSY6D2rkRbCWus9maxuPsaaCoQsMCrkWPnVUX-lICcmZnsGqbrpLB-NPWYqiT3sq_PvcwxbI8sP5lZDyNkP3sVB2eNgOOwPVMngosux2ktjYkbLNWqGi_3QACAFEIbtJLTyx56FXIk0Xr4FTGTdThphpOZ3Zd0RUKFoRjq9EYHXhutN-x0068Xty-py7ouSbQSJdyMUp1WkBrkQNe1Obz6CioTlVc8dUJ6zKc-0XQkmnVtZLYnXWpgM=w1677-h943-no?authuser=0" style="height: 150px;width:288px;position: absolute;left: 41%;top:125%">
+    </div>
+</body>
+
+</html>
