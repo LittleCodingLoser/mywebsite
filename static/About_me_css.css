@@ -5,8 +5,8 @@ h1
     font-weight: bold;
     color: black;
     position: absolute;
-    top: 18%;
-    left: 5%;
+    top: 160px;
+    left: 80px;
 }
 img
 {
@@ -51,10 +51,9 @@ img
 }
 #topic
 {
-    background-image: url('https://static.vecteezy.com/system/resources/previews/001/884/533/non_2x/minimal-office-desk-table-top-view-with-keyboard-computer-mouse-glasses-coffee-cup-rice-plant-sack-on-a-white-table-with-copy-space-white-color-workplace-composition-flat-lay-free-photo.jpg');
-    filter: brightness(98%);
+    background-image: url('images/aboutmetitle.png');
     background-repeat: no-repeat;
-    background-attachment:absolute;
+    background-attachment:fixed;
     background-size:cover;
 }
 #icon0:hover
@@ -68,7 +67,7 @@ img
     font-size: 3em;
     font-weight: bold;
     position: absolute;
-    left: 5%;
+    left: 80px;
 }
 #icon1:hover
 {
@@ -81,7 +80,7 @@ img
     font-size: 3em;
     font-weight: bold;
     position: absolute;
-    left: 30%;
+    left: 425px;
 }
 #icon2:hover
 {
@@ -94,7 +93,7 @@ img
     font-size: 3em;
     font-weight: bold;
     position: absolute;
-    right: 30%;
+    right: 425px;
 }
 #icon3:hover
 {
@@ -107,5 +106,5 @@ img
     font-size: 3em;
     font-weight: bold;
     position: absolute;
-    right: 5%;
+    right: 80px;
 }

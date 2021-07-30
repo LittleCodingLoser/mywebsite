@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <div id="topic">
+    <div id="topic" style="height: 500px;">
         <h1>Weber Chang's Website</h1>
     </div>
     <div id="content">
@@ -17,7 +17,7 @@
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="text-decoration:none;" id="icon2">Little Surprise</a>
         <a href="{{ url_for('hello3') }}" id="icon3" style="text-decoration:none;" >My GitHub</a>
         <p>This is a simple website about myself.<br> It is also connected to my GitHub and one little surprise.</p>
-        <img src="https://lh3.googleusercontent.com/j97yT43hJMj_k3WgC1QnuFQyPq0lE4vQhGGOzKyn_LnTAV8MHOvrW3l8ijWDG_CT4FhOkFNMpxVyehu672v_oq5qUbLH1wCoZKAoKXd1JMnr51h_Nhin_hdfPed02KTu6gTf7HMlbs0FoB1WGjfO2zRRkneVeUKeLnRZeZpqloD5Ue_lfgtE4AV0VH0NaR-JmTt1q1OjxVJH0BWLJO-4xNMx0y79yCrEhL7SAEORu8N_xWlhD9On3clDWRXzs-wNpsaRR2aiXz77Pj30WbYNyMif2n2I3IPgYY3YlOyCds6PrcuNML_p__MtFwDuPJPyDfOk_AojnfvsZ4cgg32I7aHV3FqfCZHr7kp4fKZcmCLomgVg0aUxfwDhUdr_TPqHBWMxX-0GNtU-MRjxI-tFJ7FzXaLUYNi9uCeuLRe0pFusE36aF55fnTgVkIfA2VbznUzXpxusHh86R2BkE6cY9ix15wV8-u6xrRHn6_KWBEn8w7-6SC6D1X4NbSz7e9ECxrl-ySykCVzwL1nNyLfcYPRI66FEOcPjqdYuvzA16S1QHtbUnHKa5z4eAWiADZyGdDd0LQdQaSibDAWDv1nIxhuBd82d3xY19Ahjc1w_FKSCzSka3JODEm8EouQ2LFkUjsKxRGeyCz_PuuyTO5Z_lb2CLzUK64Mo7YTDyrpNratYfNjF0F6EHcvO8wU_gcPh0xGNWxfd5wRtFxRYQhPmHTU=w1006-h566-no?authuser=1" style="height: 150px;width:288px;position: absolute;left: 41%;top:95%">
+        <img src="{{ url_for('static', filename='images/home.png') }}" style="height: 100px;width:192px;position: absolute;left: 660px;top:770px">
     </div>
 </body>
 

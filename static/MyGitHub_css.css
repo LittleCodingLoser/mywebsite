@@ -5,17 +5,16 @@ h1
     font-weight: bold;
     color: black;
     position: absolute;
-    top: 30%;
-    left: 5%;
+    top: 160px;
+    left: 80px;
 }
 #topic
 {
-    background-image: url('https://static.vecteezy.com/system/resources/previews/001/884/561/large_2x/minimal-office-desk-table-top-view-with-office-supply-and-coffee-cup-on-a-white-table-with-copy-space-white-color-workplace-composition-flat-lay-free-photo.jpg');
+    background-image: url('images/mygithubtitle.jpg');
     background-repeat: no-repeat;
-    filter: brightness(95%);
-    background-attachment:absolute;
+    filter: brightness(105%);
+    background-attachment:fixed;
     background-size:cover;
-    height: 73%;
 }
 #icon0:hover
 {
@@ -28,7 +27,7 @@ h1
     font-size: 3em;
     font-weight: bold;
     position: absolute;
-    left: 5%;
+    left: 80px;
 }
 #icon1:hover
 {
@@ -41,7 +40,7 @@ h1
     font-size: 3em;
     font-weight: bold;
     position: absolute;
-    left: 30%;
+    left: 425px;
 }
 #icon2:hover
 {
@@ -54,7 +53,7 @@ h1
     font-size: 3em;
     font-weight: bold;
     position: absolute;
-    right: 30%;
+    right: 425px;
 }
 #icon3:hover
 {
@@ -67,12 +66,12 @@ h1
     font-size: 3em;
     font-weight: bold;
     position: absolute;
-    right: 5%;
+    right: 80px;
 }
 p{
     font-family:Brush Script MT, Brush Script Std, cursive;
     font-size: 2em;
     position: absolute;
-    left: 10%;
-    top: 82%;
+    left: 160px;
+    top: 600px;
 }
