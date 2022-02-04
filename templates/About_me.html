@@ -2,28 +2,126 @@
 <html>
 
 <head>
-    <title>About Me啦啦啦</title>
+    <title>About Me</title>
     <link rel=stylesheet type="text/css" href="static\About_me_css.css">
+    <link rel="shortcut icon" type="image/x-icon" href="static\images\WebsiteLogo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <div id="topic" style="height: 500px;">
-        <h1>About Me~</h1>
-    </div>
-    <div>
-        <a href= "{{ url_for('hello') }}" style="text-decoration:none;" id="icon0">Home</a>
-        <a href= "{{ url_for('hello2') }}" style="text-decoration:none;" id="icon1">About Me</a>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="text-decoration:none;" id="icon2">Little Surprise</a>
-        <a href="{{ url_for('hello3') }}" id="icon3" style="text-decoration:none;" >My GitHub</a>
-        <img src="{{ url_for('static', filename='images/me.jpg') }}" width="360px" height="480px" style="position:absolute;left: 290px;top:650px;">
-        <div id="MeText" style="position:absolute;left:660px;top:650px;">
-            <p id="topic1" style="margin: 4px;">自傳</p>
-            <p id="text1" style="margin: 4px;">哩賀，我叫常洧(ㄨㄟˇ)丞，是個十六歲的高二屁孩。自認為是個卡在nerd跟outgoing person間的人，喜歡窩在電腦前寫程式跟在沙發或床上發懶一整天，但我也很尬意運動還有跟朋友到處亂滾。性格應該還算圓滑也很chill，只是幹話多，至少不是個邊緣人。不喜歡火鍋加芋頭、披薩加鳳梨、炒飯加chili jam，喜歡上述三者的人請不要進入我方圓十里(just kidding)，in conclusion, it's nice to meet you~<br></p>
-            <p id="topic2" style="margin: 4px;"><br>照片典故</p>
-            <p id="text2" style="margin: 4px;">高一時英文報告要求放一張個人照，但因為本人不怎麼喜歡拍照，所以相簿裡一張都沒有，就請一個攝影社的同學幫我，我問他有沒有什麼專業建議，他說我臉太大，站側身比較好(超欠扁)，所以就有這張賭爛的90度側身照</p>
+    <nav>
+        <div class="Site-title">&lt;W&gt;</div>
+        <div class="hamburger-toggle">
+            <span class="bar-1"></span>
+            <span class="bar-2"></span>
+            <span class="bar-3"></span>
         </div>
-        <img src="{{ url_for('static', filename='images/About Me .png') }}" style="height: 100px;width:192px;position: absolute;left: 660px;top:1220px">
+        <div class="navbar-links">
+            <ul>
+            <li>
+                <a href="{{ url_for('hello') }}" class = "home-link">
+                    <div>
+                        <p class="home-text">Home</p>
+                        <i class="fas fa-home"  id = "home-icon"></i>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="{{ url_for('hello2') }}" class = "about-link">
+                    <div>
+                        <p class="about-text">About</p>
+                        <i class="fas fa-user" id = "about-icon"></i>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="{{ url_for('hello3') }}" class = "portfolio-link">
+                    <div>
+                        <p class="portfolio-text">Portfolio</p>
+                        <i class="fas fa-file-code" id = "portfolio-icon"></i>
+                    </div>
+                </a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="topic">
+        <div class="topic-text">
+            <h1>About Me</h1>
+            <p class="topic-text-sub">I'm a Simple Person tho</p>
+        </div>
+        <div class="aboutme_topic_image-container">
+            <img src="{{ url_for('static', filename='images/satelite.svg') }}" class="satellite">
+            <img src="{{ url_for('static', filename='images/saturn-in-about.svg') }}" class="saturn">
+            <img src="{{ url_for('static', filename='images/earth.svg') }}" class="earth">
+            <div class="astronaut"></div>
+        </div>
+        <!---<img src="{{ url_for('static', filename='images/aboutmeicon.svg') }}" class="aboutme_topic_image">--->
     </div>
+    <div class="who-am-I">
+        <div class="my-image">
+            <img src="{{ url_for('static', filename='images/shadow.svg') }}" class="shadow">
+            <img src="{{ url_for('static', filename='images/image-folder-background.svg') }}" class="background">
+            <img src="{{ url_for('static', filename='images/personal-image.svg') }}" class="personal-photo">
+        </div>
+        <div class="who-am-I-content">
+                <h2>Who Am I</h2>
+                <p>A eleventh-grade nerd from Kaohsiung, Taiwan. Always try to stay chill and humorous.</p>
+        </div>
+    </div>
+    <div class="hobby">
+        <div class="hobby-image">
+            <!--<img src="{{ url_for('static', filename='images/computer-background.svg') }}" class="computer-background">-->
+            <img src="{{ url_for('static', filename='images/keyboard.svg') }}" class="keyboard">
+            <img src="{{ url_for('static', filename='images/window1.svg') }}" class="window1">
+            <img src="{{ url_for('static', filename='images/window2.svg') }}" class="window2">
+            <img src="{{ url_for('static', filename='images/screen.svg') }}" class="screen">
+        </div>
+        <div class="hobby-content">
+            <h2>My Hobby - Programming!</h2>
+            <p>You know I'm something of a programmer myself. I have been coding for more than one and a half year, and I find it very interesting.</p>
+        </div>
+    </div>
+    <div class="things_I_like">
+        <div class="things_I_like-content">
+            <h2>Things I Like</h2>
+            <p>I have several interest besides coding. Like watching movies, playing badminton, listening to music and reading novels.</p>
+        </div>
+        <div class="things_I_like-image">
+            <img src="{{ url_for('static', filename='images/thing_I_like.svg') }}" class="things_I_like-person">
+            <img src="{{ url_for('static', filename='images/heart.svg') }}" class="things_I_like-heart">
+        </div>
+    </div>
+    <div class="this_years_resolution">
+        <div class="resolution-image">
+            <img src="{{ url_for('static', filename='images/New_year_resolution.svg') }}" class="resolution-man">
+            <img src="{{ url_for('static', filename='images/big_resolution_bubble.svg') }}" class="big-bubble">
+            <img src="{{ url_for('static', filename='images/smol_resolution_bubble.svg') }}" class="smol-bubble">
+        </div>
+        <div class="resolution-content">
+            <h2>This Year's Resolution</h2>
+            <ul>
+                <li>Build a daily routine reminder for my classmates</li>
+                <li>Maintain good score in school</li>
+                <li>APCS 實作 4</li>
+                <li>Learn React</li>
+                <li>Lose some weight (kinda hard)</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <header><h3>Find me on</h3></header>
+        <ul>
+            <li><a href = "https://github.com/LittleCodingLoser" class = "github-link">GitHub</a></li>
+            <li><a href = "https://stackoverflow.com/users/16480529/weber-chang" class = "stack-overflow-link">Stack Overflow</a></li>
+            <li><a href = "https://www.instagram.com/weber_eating_sleeping/" class = "instagram-link">Instagram</a></li>
+            <li><a href="https://twitter.com/WeberChang10" class = "twitter-link">Twitter</a></li>
+            <li><a href = "https://www.facebook.com/profile.php?id=100004070266791" class = "facebook-link">Facebook</a></li>
+        </ul>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+    <script src="{{ url_for('static', filename='About_me.js') }}"></script>
 </body>
 
 </html>
