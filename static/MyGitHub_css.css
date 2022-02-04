@@ -264,7 +264,7 @@ button {
 .certification-competition-content ul li::before {
     color: white;
     font-size: clamp(1rem, 2vw, 1.8rem);
-    content: "● ";
+    content: " ";
     font-family: "Futura ", Trebuchet MS, Arial, sans-serif;
 }
 
