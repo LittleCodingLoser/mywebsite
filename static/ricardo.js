@@ -37,7 +37,6 @@ const icon_animation = () => {
     portfolioLink.addEventListener("mouseenter", () => {
         if(document.body.offsetWidth < 600) translateX = -55;
         else translateX = -40;
-        console.log(`${document.body.offsetWidth} and x is ${translateX}`);
         gsap.to("#portfolio-icon", {opacity: 1, x: translateX, duration: 0.6, ease: "power3.out"});
         gsap.to(".portfolio-text", {color: "hsl(212, 52%, 82%)", x: 10, duration: 0.6, ease: "power3.out"});
     });
