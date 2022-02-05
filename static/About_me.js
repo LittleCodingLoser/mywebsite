@@ -23,7 +23,7 @@ const computerScrollFunction = () => {
         gsap.from(`.${hobbyElement.name}`, {
             scrollTrigger: {
                 trigger: `.${hobbyElement.name}`,
-                start: () => `top ${window.screen.availHeight * 0.4 + computer.offsetTop * 0.8}`,
+                start: () => `top ${window.screen.availHeight * 0.3 + computer.offsetTop * 0.8}`,
                 end: () => `+=${computer.getBoundingClientRect().height * 0.3}`,
                 scrub: true,
                 toggleActions: "restart pause reverse pause",
