@@ -50,9 +50,9 @@ const icon_animation = () => {
 
 const topic_image_animation = () => {
     tl = gsap.timeline({repeat: -1});
-    tl.to(".magnify_glass", {x: -20, y: -30, duration: 1, ease: "power1.out"})
-      .to(".magnify_glass", {x: -30, y: 10, duration: 1, ease: "power1.out"})
-      .to(".magnify_glass", {x: -50, y: -35, duration: 1, ease: "power1.out"})
+    tl.to(".magnify_glass", {x: "-20px", y: "-30px", duration: 1, ease: "power1.out"})
+      .to(".magnify_glass", {x: "-30px", y: "10px", duration: 1, ease: "power1.out"})
+      .to(".magnify_glass", {x: "-50px", y: "-35px", duration: 1, ease: "power1.out"})
       .to(".magnify_glass", {x : 0, y: 0, duration: 1, ease: "power1.out"});
 }
 
