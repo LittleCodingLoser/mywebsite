@@ -169,9 +169,8 @@ h2 {
     position: absolute;
     width: clamp(15rem, 40vw + 5rem, 40rem);
     height: clamp(15rem, 40vw + 5rem, 40rem);
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    left: 0%;
+    top: 0%;
 }
 
 .personal-photo {
@@ -254,10 +253,8 @@ nav {
 }
 
 .Site-title {
-    font-size: 2rem;
-    font-family: "Neon Glow", "Futura ", Arial, sans-serif;
-    color: white;
-    letter-spacing: .2rem;
+    height: clamp(2rem, 3vw, 3rem);
+    width: clamp(3.55rem, 5.33vw, 5.33rem);
     z-index: 150;
 }
 

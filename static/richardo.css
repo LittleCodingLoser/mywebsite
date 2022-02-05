@@ -23,7 +23,6 @@ body {
 .topic {
     display: flex;
     flex-wrap: wrap;
-    /* max-width: 100rem; */
     min-height: 100vh;
     padding-top: 6rem;
     padding-left: 2rem;
@@ -114,11 +113,8 @@ nav {
 }
 
 .Site-title {
-    /* font-size: clamp(1.5rem, 3vw, 2rem); */
-    font-size: 2rem;
-    font-family: "Neon Glow", "Futura ", Arial, sans-serif;
-    color: white;
-    letter-spacing: 0.2rem;
+    height: clamp(2rem, 3vw, 3rem);
+    width: clamp(3.55rem, 5.33vw, 5.33rem);
     z-index: 10;
 }
 
